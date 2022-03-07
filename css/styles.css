@@ -51,6 +51,10 @@ body {
     color: #83888F;
 }
 
+.sitenav__list-link:hover {
+    color: #111;
+}
+
 /* End of nav section styles */
 
 .site-hero {
