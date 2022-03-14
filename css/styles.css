@@ -623,7 +623,6 @@ body {
     
     .footer-nav {
         margin-top: 32px;
-        margin-bottom: 65px;
         padding-left: 90px;
     }
 }
@@ -632,35 +631,7 @@ body {
     .container {
         width: 640px;
     }
-    
-    .collection__bg {
-        width: 630px;
-    }
-    .choose-cards {
-        left: 4%;
-    }
-    
-    .work-card {
-        width: 200px;
-        margin-bottom: 36px;
-    }
-}
 
-@media only screen and (max-width: 375px) {
-    .container {
-        width: 327px;
-    }
-    
-    .site-header {
-        padding-top: 32.31px;
-    }
-    
-    .site-header__logo {
-        display: block;
-        width: 162.31px;
-        height: 17.31px;
-    }
-    
     .site-header__sitenav {
         display: none;
     }
@@ -673,7 +644,7 @@ body {
         display: block;
         position: absolute;
         background: linear-gradient(180deg, #FEFCF7   55%,rgba(254, 252, 247, 0.504981) 60.94%);
-        width: 375px;
+        width: 670px;
         height: 577px;
         left: 0;
         padding-top: 40px;
@@ -700,6 +671,38 @@ body {
         font-size: 24px;
         text-align: center;
         color: #333D4B;
+    }
+    
+    .collection__bg {
+        width: 630px;
+    }
+    .choose-cards {
+        left: 4%;
+    }
+    
+    .work-card {
+        width: 200px;
+        margin-bottom: 36px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .container {
+        width: 327px;
+    }
+
+    .sitenav__list {
+        width: 375px;
+    }
+    
+    .site-header {
+        padding-top: 32.31px;
+    }
+    
+    .site-header__logo {
+        display: block;
+        width: 162.31px;
+        height: 17.31px;
     }
     
     .site-hero {
@@ -837,6 +840,5 @@ body {
 
     .footer {
         padding-left: 15%;
-        margin-bottom: none;
     }
 }
