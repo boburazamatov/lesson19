@@ -7,6 +7,8 @@
     <title>coffe</title>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&family=Fraunces:wght@900&display=swap" rel="stylesheet">
@@ -35,6 +37,27 @@
                 </li>
             </ul>
         </nav>
+        <label class="nav-bars" for="inp">
+            <i class="fas fa-bars fa-2x"></i>
+            <input id="inp" class="check" type="checkbox">
+            <ul class="sitenav__list">
+                <li class="sitenav__list-item">
+                    <a class="sitenav__list-link" href="#">
+                        home
+                    </a>
+                </li>
+                <li class="sitenav__list-item">
+                    <a class="sitenav__list-link" href="#">
+                        about us
+                    </a>
+                </li>
+                <li class="sitenav__list-item">
+                    <a class="sitenav__list-link" href="#">
+                        create your plane
+                    </a>
+                </li>
+            </ul>
+        </label>
     </header>
     <div class="site-hero container">
         <div class="hero">
@@ -43,7 +66,7 @@
             <a class="hero__link" href="#">Create your plan</a>
         </div>
     </div>
-    <div class="collection">
+    <div class="collection container">
         <div class="collection__bg"></div>
         <div class="box-wrapper">
             <div class="collection-box">
@@ -100,5 +123,91 @@
             </div>
         </div>
     </div>
-</body>
-</html>
+    <div class="choose-section container">
+        <div class="choose">
+            <h3 class="choose__title">
+                Why choose us?
+            </h3>
+            <p class="choose__text">A large part of our role is choosing which particular coffees will be featured 
+                in our range. This means working closely with the best coffee growers to give 
+                you a more impactful experience on every level.</p>
+            </div>
+            <div class="choose-cards">
+                <div class="card__box">
+                    <img class="card__img" src="/img/coffee-bean.png" width="72" height="72" alt="coffee icon">
+                    <div>
+                        <h3 class="card__title">Best quality</h3>
+                        <p class="card__text">Discover an endless variety of the world's best artisan coffee from each of our roasters.</p>
+                    </div>
+                </div>
+                <div class="card__box">
+                    <img class="card__img" src="/img/Combined Shape.png" width="72" height="72" alt="coffee icon">
+                    <div>
+                        <h3 class="card__title">Exclusive benefits</h3>
+                        <p class="card__text">Special offers and swag when you subscribe, including 30% off your first shipment.</p>
+                    </div>
+                </div>
+                <div class="card__box">
+                    <img class="card__img" src="/img/Combined Shape (1).png" width="72" height="72" alt="coffee icon">
+                    <div>
+                        <h3 class="card__title">Free shipping</h3>
+                        <p class="card__text">We cover the cost and coffee is delivered fast. Peak freshness: guaranteed.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="Step container">
+            <h4 class="work__title">How it works</h4>
+            <div class="step-work__img">
+                <img  src="/img/Oval.png" width="31" height="31" alt="dumaloq icon">
+                <span class="work__img">
+                    <img src="/img/Oval.png" width="31" height="31" alt="dumaloq icon">
+                </span>
+                <img  src="/img/Oval.png" width="31" height="31" alt="dumaloq icon">
+            </div>
+            <div class="work-card__wrapper">
+                <div class="work-card">
+                    <h2 class="card-box__title">01</h2>
+                    <h3 class="card-box__subtitle">Pick your coffee</h3>
+                    <p class="card-box__text">Select from our evolving range of artisan coffees. Our beans are ethically sourced and we pay fair prices for them. There are new coffees in all profiles every month for you to try out.</p>
+                </div>
+                <div class="work-card">
+                    <h2 class="card-box__title">02</h2>
+                    <h3 class="card-box__subtitle">Choose the frequency</h3>
+                    <p class="card-box__text">Customize your order frequency, quantity, even your roast style and grind type. Pause, skip or cancel your subscription with no commitment through our online portal.</p>
+                </div>
+                <div class="work-card">
+                    <h2 class="card-box__title">03</h2>
+                    <h3 class="card-box__subtitle">Receive and enjoy!</h3>
+                    <p class="card-box__text">We ship your package within 48 hours, freshly roasted. Sit back and enjoy award-winning world-class coffees curated to provide a distinct tasting experience.</p>
+                </div>
+            </div>
+            <a class="hero__link" href="#">Create your plan</a>
+        </section>
+        <footer class="footer container">
+            <a class="footer-logo__link" href="#">
+                <img src="/img/Group 5 (1).png" alt="site logo" width="236" height="26">
+            </a>
+            <nav class="sitenav footer-nav">
+                <ul class="sitenav__list">
+                    <li class="sitenav__list-item">
+                        <a class="sitenav__list-link" href="#">
+                            home
+                        </a>
+                    </li>
+                    <li class="sitenav__list-item">
+                        <a class="sitenav__list-link" href="#">
+                            about us
+                        </a>
+                    </li>
+                    <li class="sitenav__list-item">
+                        <a class="sitenav__list-link" href="#">
+                            create your plane
+                        </a>
+                    </li>
+                </ul>
+            </nav>    
+            <a class="footer__img" href="#"><img src="/img/Group 20.png" width="120" height="24" alt="iconlar"></a>
+        </footer>
+    </body>
+    </html>
