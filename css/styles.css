@@ -52,7 +52,7 @@ body {
 }
 
 .sitenav__list-link:hover {
-    color: #fff;
+    color: #111;
 }
 
 .nav-bars {
@@ -632,6 +632,24 @@ body {
         width: 640px;
     }
 
+    .collection__bg {
+        width: 630px;
+    }
+    .choose-cards {
+        left: 4%;
+    }
+    
+    .work-card {
+        width: 200px;
+        margin-bottom: 36px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .container {
+        width: 327px;
+    }
+
     .site-header__sitenav {
         display: none;
     }
@@ -644,7 +662,7 @@ body {
         display: block;
         position: absolute;
         background: linear-gradient(180deg, #FEFCF7   55%,rgba(254, 252, 247, 0.504981) 60.94%);
-        width: 670px;
+        width: 375px;
         height: 577px;
         left: 0;
         padding-top: 40px;
@@ -671,28 +689,6 @@ body {
         font-size: 24px;
         text-align: center;
         color: #333D4B;
-    }
-    
-    .collection__bg {
-        width: 630px;
-    }
-    .choose-cards {
-        left: 4%;
-    }
-    
-    .work-card {
-        width: 200px;
-        margin-bottom: 36px;
-    }
-}
-
-@media only screen and (max-width: 375px) {
-    .container {
-        width: 327px;
-    }
-
-    .sitenav__list {
-        width: 375px;
     }
     
     .site-header {
@@ -795,6 +791,10 @@ body {
         margin-top: 42px;
     }
 
+    .card__title {
+        text-align: center;
+        padding-left: 10px;
+    }
     .card__text {
         padding-left: 33.5px;
         padding-right: 33.5px;
